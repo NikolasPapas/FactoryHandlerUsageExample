@@ -1,0 +1,33 @@
+﻿{
+    "iisSettings": {
+        "windowsAuthentication": false,
+        "anonymousAuthentication": true,
+        "iisExpress": {
+            "applicationUrl": "http://localhost:59772",
+            "sslPort": 44390
+        },
+        "iis": {
+            "applicationUrl": "https://localhost/TestFactoryHandlerApplication.Core",
+            "sslPort": 443
+        }
+    },
+    "profiles": {
+        "TestFactoryHandlerApplication.Core": {
+            "commandName": "Project",
+            "dotnetRunMessages": true,
+            "launchBrowser": true,
+            "applicationUrl": "https://localhost:7273;http://localhost:5273",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        },
+        "IIS Dev": {
+            "commandName": "IIS",
+            "launchBrowser": true,
+            "launchUrl": "swagger/index.html",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    }
+}
